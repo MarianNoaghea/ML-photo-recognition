@@ -8,10 +8,7 @@ Am folosit si o functie auxiliara dist_euclid.m cu ajutorul cu care faceam dista
 
 task3
 
-	Aici conceptul l-am inteles destul de repede, insa a durat ceva pana sa aflu cum obtin valorile pixelilor cu imread, apoi o alta problema a fost utilizarea optima a functiei histc, initial determinam puncte de intregi (luandu-mi numai 5/10 teste la rgbH) si le comparam cu intensitatile, apoi am descoperit ca pot folosi un vector de intervale, fapt care mi-a usurat lucrul la HSV unde aveam numai numere subunitare.
-
-
-	Apoi a mai fost o problema pentru ca nu mi-am dat seama ca matricile foarte mari nu se convertesc la double direct.La rgb_to_hsv.m am evita orice utilizare de for pentru a evita timeoutul, pentru implementare am luat mici vectori in comand window si am obseravt anumite proprietati ale operatorilor logici cu vectori). Householder l-am luat din cursul 7. La SST am intampinat niste probleme pentru ca algoritmul de la laborator functiona numai pentru matrici patratice.La functia de preprocess am cautat pe net cum se citesc mai multe fisiere in acelasi timp, de aceea si denumirile variabilelor in engleza, am folosit un strcat cu denumirile celor doua directoare ("cats" si "not_cats") si cu niste if-uri cu strcmp am directionat catre functile rgbHistogram si hsvHistogram. La functia evaluate.m am folosit acelasi principiu pentru lucrul cu fisiere si am obtinut un vector y, apoi am numarat cate puncte sunt mai mici si cate mai mari ca 0, apoi am calculat procentajul.
+	Aici conceptul l-am inteles destul de repede, initial determinam puncte de intregi (luandu-mi numai 5/10 teste la rgbH) si le comparam cu intensitatile, apoi am descoperit ca pot folosi un vector de intervale, fapt care mi-a usurat lucrul la HSV unde aveam numai numere subunitare.
 
 task4
 
