@@ -1,3 +1,11 @@
+Summary:
+A complex project that contained:
+- solving a maze using matrix systems
+- clustering algorithm
+- Cat Recognition: implemented a Machine Learning algorithm which recognizes cat images with an average
+prediction rate of 75%. Generated a RBG/HSV Histogram Model by processing a 1000+ image database.
+
+
 task1
 
 	Am separat in regiuni labirintul si m-am folosit de proprietatile acestora pentru a forma matricea, am folosit si o functie auxiliara nivel.m care imi spune orice punct din labirint pe ce nivel se afla.
